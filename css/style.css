@@ -1,0 +1,38 @@
+body {
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid black;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-start,
+#btn-clear {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 36px;
+    font-weight: bold;
+}
